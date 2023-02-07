@@ -1,0 +1,133 @@
+body{
+    font-family: 'Manrope', sans-serif;
+}
+
+.section-hero h1{
+    font-size: 54px; 
+}
+
+.section-collab img{
+    line-height: 50px;
+}
+
+.section-categories h1{
+    margin-bottom: 30px;
+    font-size: 32px;
+}
+
+.section-categories .container{
+    margin-top: 128px;
+}
+
+.section-choose .container{
+    margin-top: 100px;
+}
+
+.section-choose h1{
+    font-size: 32px;
+}
+
+.section-choose img{
+    width: 64px;
+    align-items: center;
+}
+
+.section-footer .container{
+    margin-top: 150px;
+}
+
+.section-footer a{
+    text-decoration: none;
+    color: gray;
+}
+
+.section-footer p{
+    color: gray;
+    font-size: 14px;
+}
+
+.section-footer h6{
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.section-footer footer{
+    font-size: 14px;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.section-choose img{
+    margin-left: 110px;
+}
+
+@media screen and (max-width:992px) {
+    .section-hero img{
+        max-width: 90%; 
+    }
+    
+    .section-hero{
+        text-align: center;
+    }
+
+    .section-hero h1{
+        font-size: 46px;
+    }
+
+    .section-collab img{
+        max-width: 150px; 
+    }
+
+    .section-collab h1{
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .section-collab img{
+        max-width: 100px; 
+        margin-top: 100px;
+        align-items: center;
+    }
+
+    .section-hero h1{
+        text-align: center;
+        font-size: 34px;
+    }
+}
+
+@media screen and (max-width:576px){
+    .section-collab img{
+        margin-top: 0px;
+        display: block;
+        align-items: center;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .section-hero h1{
+        text-align: center;
+        font-size: 34px;
+    }
+     
+    .section-categories h1{
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .section-categories img{
+        margin-bottom: 20px;
+    }
+    
+    .section-choose .row{
+        display: block; 
+    }
+
+    .section-choose img{
+        margin-left: 0;
+    }
+
+    .section-choose .col-3{
+        
+    }
+}
